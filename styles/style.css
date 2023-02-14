@@ -45,8 +45,16 @@
     padding: 12px;
     border-radius: 12px;
 }
+
 /* Button Design */
-#default:hover,#bold:hover,#italic:hover,#underline:hover,#align-left:hover,#align-right:hover,#center:hover,#align-justify:hover {
+#default:hover,
+#bold:hover,
+#italic:hover,
+#underline:hover,
+#align-left:hover,
+#align-right:hover,
+#center:hover,
+#align-justify:hover {
     background-color: rgb(161, 192, 220);
 }
 
