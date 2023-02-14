@@ -41,4 +41,16 @@ document.getElementById('align-justify').addEventListener('click',function(){
     const textField = document.getElementById('text-area-editor');
     textField.style.textAlign='justify';
 })
+//color
+document.getElementById('main-color').addEventListener('input',function(){
+    const myColor = document.getElementById('main-color').value;
+    const textField = document.getElementById('text-area-editor');
+    textField.style.color = myColor;
+})
+//fontSize
+document.getElementById('fontSize').addEventListener('input',function(){
+    const myFontSize = document.getElementById('fontSize').value;
+    const textField = document.getElementById('text-area-editor');
+    textField.style.fontSize = myFontSize+'px';
+})
 
