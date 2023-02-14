@@ -1,9 +1,10 @@
 /* Text area Header Part */
-::selection{
+::selection {
     color: yellow;
     background-color: red;
 }
-.text-area-option{
+
+.text-area-option {
     padding: 12px 15px;
     border: 2px solid rgba(0, 0, 0, 0.374);
     margin-bottom: 12px;
@@ -11,14 +12,19 @@
     justify-content: space-between;
     align-items: center;
 }
-.text-style,.align-content,.font-size-color{
+
+.text-style,
+.align-content,
+.font-size-color {
     display: flex;
     gap: 30px;
 }
-.my-editor{
+
+.my-editor {
     padding: 50px 100px;
 }
-#text-area-editor{
+
+#text-area-editor {
     outline: transparent;
     border: 1px solid rgba(85, 0, 255, 0.724);
     padding: 10px;
@@ -27,35 +33,46 @@
 }
 
 /* Button Design */
-#bold,#italic,#underline,#align-left,#align-right,#center,#align-justify{
+#bold,
+#italic,
+#underline,
+#align-left,
+#align-right,
+#center,
+#align-justify {
     background-color: aliceblue;
     padding: 12px;
     border-radius: 12px;
 }
-.copyright{
+
+.copyright {
     text-align: center;
     color: aliceblue;
 }
 
 /* REESPONSIVE STYLE */
 @media screen and (min-width:577px) and (max-width:992px) {
-    .my-editor{
+    .my-editor {
         padding: 20px 2px;
     }
-    .text-area-option{
+
+    .text-area-option {
         flex-direction: column;
         gap: 20px;
     }
 }
+
 @media screen and (max-width:576px) {
-    .my-editor{
+    .my-editor {
         padding: 20px 2px;
     }
-    .text-area-option{
+
+    .text-area-option {
         flex-direction: column;
         gap: 20px;
     }
-    #text-area-editor{
+
+    #text-area-editor {
         height: 100vh;
     }
 }
