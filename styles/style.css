@@ -25,6 +25,7 @@
 }
 
 #text-area-editor {
+    cursor: copy;
     outline: transparent;
     border: 1px solid rgba(85, 0, 255, 0.724);
     padding: 10px;
@@ -41,6 +42,7 @@
 #align-right,
 #center,
 #align-justify {
+    cursor: pointer;
     background-color: aliceblue;
     padding: 12px;
     border-radius: 12px;
@@ -60,7 +62,7 @@
 
 .copyright {
     text-align: center;
-    color: aliceblue;
+    color: rgba(156, 194, 228, 0.322);
 }
 
 /* REESPONSIVE STYLE */
