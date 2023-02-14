@@ -1,3 +1,11 @@
+// Default 
+document.getElementById('default').addEventListener('click',function(){
+    const textField = document.getElementById('text-area-editor');
+    textField.style.fontWeight='Normal';
+    textField.style.fontStyle='Normal';
+    textField.style.textDecoration='none';
+
+})
 // Editing Text 
 document.getElementById('bold').addEventListener('click',function(){
     const textField = document.getElementById('text-area-editor');
